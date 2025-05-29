@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Trip-planner.props" />
+</Project>

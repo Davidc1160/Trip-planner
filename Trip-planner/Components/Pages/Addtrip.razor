@@ -1,0 +1,30 @@
+@page "/addtrip"
+
+<PageTitle>Trip Planner</PageTitle>
+
+<h1>Create and Plan Your Trips</h1>
+
+<div>
+    <form>
+        <div class="mb-3">
+            <label for="tripName" class="form-label">Trip Name</label>
+            <input type="text" id="tripName" class="form-control" placeholder="Enter trip name" />
+        </div>
+        <div class="mb-3">
+            <label for="location" class="form-label">Location</label>
+            <input type="text" id="location" class="form-control" placeholder="Enter location" />
+        </div>
+        <div class="mb-3">
+            <label for="itinerary" class="form-label">Itinerary</label>
+            <textarea id="itinerary" class="form-control" placeholder="Enter itinerary"></textarea>
+        </div>
+        <div class="text-danger" style="display: none;">
+            Please fill out all fields before adding the trip.
+        </div>
+        <button type="button" class="btn btn-primary">Add Trip</button>
+    </form>
+</div>
+
+@code {
+    // Logic will be added here later
+}
